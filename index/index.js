@@ -5,7 +5,7 @@ const cheerio = require('cheerio');
 
 var table = new Table({
     head: ['Heading', 'Url']
-  , colWidths: [130, 190]
+  , colWidths: [100, 200]
 });
 
 var url='https://news.ycombinator.com';
